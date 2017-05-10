@@ -9,7 +9,7 @@ const makeCommand = ({ bundleURL, identifier }) => {
 
 const runPluginCommand = options =>
   new Promise((resolve, reject) => {
-    exec(`${coscript} -e '${makeCommand(options)}'`, (err, stdout, stderr) => {
+    exec(`"${coscript}" -e '${makeCommand(options)}'`, (err, stdout, stderr) => {
       if (err) {
         reject(err);
       }
