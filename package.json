@@ -1,6 +1,6 @@
 {
   "name": "run-sketch-plugin",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Run a Sketch plugin by name & bundle URL",
   "main": "lib/index.js",
   "scripts": {
