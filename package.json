@@ -9,6 +9,10 @@
     "lint": "eslint .",
     "prepublishOnly": "npm run check && npm run build"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jongold/run-sketch-plugin.git"
+  },
   "keywords": [
     "sketchapp",
     "sketch"
